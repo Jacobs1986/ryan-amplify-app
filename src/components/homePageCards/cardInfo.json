@@ -1,6 +1,6 @@
 [
     {
-        "cardImg": "./ganesh.jpeg",
+        "cardImg": "./ganesh-2.jpg",
         "cardTitle": "Guided Relaxtion Audio",
         "cardText": "Sitting or laying down as I guide you through a relaxing body scan.",
         "btnId": "learnMoreBtn",
@@ -8,7 +8,7 @@
         "link": "/media"
     },
     {
-        "cardImg": "./guided.jpeg",
+        "cardImg": "./guided-2.jpg",
         "cardTitle": "Nature Day Retreats",
         "cardText": "Join me in Nature to experience forest bathing and cold therapy.",
         "btnId": "retreatBtn",
