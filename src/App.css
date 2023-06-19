@@ -1,0 +1,21 @@
+/* Fonts */
+.nav-link, .site-title, button, .btn, .homeColumn, #linkTitle, #siteHeader, #myStoryHeader, #footerDiv, h4, .blogTitle {
+    font-family: "Source Sans Pro";
+}
+
+.site-description, .caption, p {
+    font-family: "Source Serif Pro","Baskerville Old Face",Garamond,"Times New Roman",serif;
+}
+
+/* Font Weight */
+.nav-item, .site-title, h4, button, .btn, .blogTitle, #linkTitle, #siteHeader, #myStoryHeader, #footerDiv, #certificationHeader {
+    font-weight: 700;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.colNoPadding {
+    padding: 0 !important;
+}
