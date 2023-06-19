@@ -1,0 +1,66 @@
+.homeCardTitle {
+    font-family: 'Source Sans Pro';
+    font-weight: 700 !important;
+}
+
+.homeCardText {
+    font-size: 21px;
+}
+
+.homeCardFooter {
+    background-color: white !important;
+    border-top: none !important;
+}
+
+.btnCardStyle {
+    font-size: .83333rem !important;
+    color: black !important; 
+    border-radius: 5px !important;
+    border-width: 0 !important  ;
+    padding: 16px !important;
+    font-weight: 700 !important;
+    width: 11rem;
+}
+
+#learnMoreBtn {
+    background-image: linear-gradient(to bottom right, orange, rgb(235, 113, 0));
+}
+
+#retreatBtn {
+    background-image: linear-gradient(to bottom right, rgb(196, 255, 77), rgb(102, 255, 153));
+}
+
+#readMoreBtn {
+    background-image: linear-gradient(to bottom right, rgb(51, 153, 255), rgb(196, 77, 255));
+}
+
+@media screen and (min-width: 768px) {
+    .cardImage {
+        height: 10em !important;
+    }
+    .homeCardText {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 812px) {
+    .cardImage {
+        height: 9em !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cardImage {
+        height: 13em !important;
+    }
+
+    .homeCardText {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cardImage {
+        height: 17em !important;
+    }
+}

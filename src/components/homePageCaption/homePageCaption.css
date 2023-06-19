@@ -1,0 +1,16 @@
+.center {
+    text-align: center;
+}
+
+.captionText {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.captionText h4 {
+    font-style: italic;
+}
+
+.captionText p {
+    font-size: 20px;
+}
