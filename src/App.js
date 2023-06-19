@@ -13,11 +13,11 @@ import Navigation from "./components/navbar/navbar";
 
 function App() {
     return (
-        <>
+        <div>
             <BrowserRouter>
                 <Navigation />
             </BrowserRouter>
-        </>
+        </div>
     )
 }
 
