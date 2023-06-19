@@ -19,7 +19,7 @@ export default function HomePageCards() {
                             <Col xs={12} md={4} key={i}>
                                 <Card.Img 
                                     variant="top"
-                                    src={info.cardImg}
+                                    src={require(`${info.cardImg}`)}
                                     className="cardImage"
                                 />
                                 <Card.Body>
