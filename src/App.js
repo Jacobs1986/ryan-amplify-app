@@ -8,12 +8,22 @@ import {
 // Styling
 import './App.css';
 
+// Components
+import Navigation from "./components/navbar/navbar";
+
+// Pages
+import Home from "./pages/home-page";
+
 function App() {
     return (
-        <>
-            <h1>This is Ryan's website</h1>
-            <p>Finish putting everything together for your portoflio. You got this :-)</p>
-        </>
+        <div>
+            <BrowserRouter>
+                <Navigation />
+                <Routes>
+                    <Route path='/' element={<Home />} />
+                </Routes>
+            </BrowserRouter>
+        </div>
     )
 }
 
