@@ -14,7 +14,7 @@ export default function HomePageBanner() {
                     <Col id="bannerCol">
                         <Image 
                             fluid
-                            src="./Images/banner.jpg"
+                            src={require("./banner.jpg")}
                             alt="Home banner"
                         />
                     </Col>
