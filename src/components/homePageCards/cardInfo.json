@@ -1,0 +1,26 @@
+[
+    {
+        "cardImg": "./Images/ganesh.jpeg",
+        "cardTitle": "Guided Relaxtion Audio",
+        "cardText": "Sitting or laying down as I guide you through a relaxing body scan.",
+        "btnId": "learnMoreBtn",
+        "btnText": "I Want to Learn More!",
+        "link": "/media"
+    },
+    {
+        "cardImg": "./Images/guided.jpeg",
+        "cardTitle": "Nature Day Retreats",
+        "cardText": "Join me in Nature to experience forest bathing and cold therapy.",
+        "btnId": "retreatBtn",
+        "btnText": "Retreat",
+        "link": "/retreat"
+    }, 
+    {
+        "cardImg": "./Images/travel.jpg",
+        "cardTitle": "Blog",
+        "cardText": "Read about my travels, yoga philosophy and nature experiences.",
+        "btnId": "readMoreBtn",
+        "btnText": "Read More",
+        "link": "/blog"
+    }
+]
