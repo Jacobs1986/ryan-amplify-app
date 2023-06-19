@@ -8,11 +8,15 @@ import {
 // Styling
 import './App.css';
 
+// Components
+import Navigation from "./components/navbar/navbar";
+
 function App() {
     return (
         <>
-            <h1>This is Ryan's website</h1>
-            <p>Finish putting everything together for your portoflio. You got this :-)</p>
+            <BrowserRouter>
+                <Navigation />
+            </BrowserRouter>
         </>
     )
 }
