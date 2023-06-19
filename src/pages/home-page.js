@@ -4,7 +4,7 @@ import React from "react";
 import HomePageBanner from "../components/homePageBanner/homePageBanner";
 import HomePageCaption from "../components/homePageCaption/homePageCaption";
 import HomePageCards from '../components/homePageCards/homePageCards';
-// import HomePageColumn from "../components/homePageColumn/homePageColumn";
+import HomePageColumn from "../components/homePageColumn/homePageColumn";
 // import HomePageLinks from "../components/homePageLinks/homePageLinks";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
             <HomePageBanner />
             <HomePageCaption />
             <HomePageCards />
-            {/* <HomePageColumn /> */}
+            <HomePageColumn />
             {/* <HomePageLinks /> */}
         </div>
     );

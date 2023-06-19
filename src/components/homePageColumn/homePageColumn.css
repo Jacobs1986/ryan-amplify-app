@@ -1,0 +1,48 @@
+.homeColumn {
+    background-color: black;
+    color: white;
+}
+
+.homeColumnTitle {
+    font-weight: 700;
+}
+
+#columnImage {
+    padding: 0
+}
+
+#homeColumnPara {
+    font-size: 19px;
+}
+
+.homeColumnTitle {
+    padding-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    #homeColumnText {
+        padding: 14em 12px;
+    }
+}
+
+@media screen and (min-width: 812px) {
+    #homeColumnText {
+        padding: 15em 12px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #homeColumnText {
+        padding: 21em 1em;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #homeColumnText {
+        padding: 23em 1em;
+    }
+
+    #columnImage {
+        padding: 0 7em;
+    }
+}
