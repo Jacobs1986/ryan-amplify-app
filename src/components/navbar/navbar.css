@@ -1,0 +1,36 @@
+.navLink {
+    color: black !important;
+    font-size: 21px;
+}
+
+.navLink:hover {
+    color: lightgray !important;
+}
+
+#siteDescription {
+    color: #3c96e7;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    #navbarContainer {
+        padding: 0 9.36em;
+    }
+
+    #headerContainer {
+        padding-top: 40px;
+        padding-bottom: 9px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #navbarContainer {
+        padding: 0 16.86em;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #navbarContainer {
+        padding: 0 28.11em;
+    }
+}
