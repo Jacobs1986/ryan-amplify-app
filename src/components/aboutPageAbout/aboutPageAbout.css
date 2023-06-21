@@ -1,0 +1,17 @@
+#myStoryHeader {
+    font-size: 31px;
+}
+
+.aboutText {
+    font-size: 17.66667px;
+}
+
+#certificationHeader {
+    font-size: 1.5em;
+}
+
+@media screen and (min-width: 1440px) {
+    .aboutText {
+        font-size: 20.66667px;
+    }
+}
