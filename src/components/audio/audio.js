@@ -25,9 +25,9 @@ export default function Audio() {
                         <p id="audioPara"> 
                             Just click below on the “play” button to hear my relaxation audio. Connecting our awareness with the body, breath and sensations that may come up. Starting with with toes and moving all the way up to the head. And then silence while we enter a deeper state of relaxation. Enjoy!
                         </p>
-                        {/* <audio controls>
+                        <audio controls>
                             <source src={require('./ryan-0.5.wav')} type="audio/ogg" />
-                        </audio> */}
+                        </audio>
                     </Col>
                 </Row>
             </Container>
