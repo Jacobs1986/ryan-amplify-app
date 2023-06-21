@@ -31,7 +31,7 @@ export default function Video() {
                             <Image
                                 className="linkIcons"
                                 alt='YouTube icon'
-                                src='./Images/youtube-logo.png'
+                                src='./youtube-logo.png'
                             />
                         </a>
                     </Col>
