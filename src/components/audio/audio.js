@@ -17,7 +17,7 @@ export default function Audio() {
                     <Col xs={12} md={6} style={{ padding: '0px' }}>
                         <Image
                             fluid
-                            src='./Images/meditation.jpg'
+                            src={require('./meditation.jpg')}
                             alt='Meditation position'
                         />
                     </Col>
