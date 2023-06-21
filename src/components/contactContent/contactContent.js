@@ -29,12 +29,12 @@ export default function ContactContent() {
                     Or connect with me through my social media:
                 </p>
                 <Image
-                    src='./Images/icon-instagram.png'
+                    src='./icon-instagram.png'
                     alt='Instagram logo'
                     className='linkIcons'
                 />
                 <Image
-                    src='./Images/youtube-logo.png'
+                    src='./youtube-logo.png'
                     alt='YouTube logo'
                     className='linkIcons'
                 />
