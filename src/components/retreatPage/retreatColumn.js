@@ -13,7 +13,7 @@ export default function RetreatColumn() {
                 <Row>
                     <Col xs={12} md={5} lg={3} id="retreatCol-picture">
                         <Image
-                            src='./Images/reatreat-banner.jpg'
+                            src={require('./retreat-banner.jpg')}
                             alt='Retreat banner'
                             fluid
                         />
