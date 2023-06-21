@@ -18,6 +18,7 @@ import About from "./pages/about-page";
 import Media from "./pages/media-page";
 import Retreat from "./pages/retreat-page";
 import Blog from "./pages/blog-page";
+import Contact from "./pages/contact-page";
 
 function App() {
     return (
@@ -30,6 +31,7 @@ function App() {
                     <Route path='/media' element={<Media />} />
                     <Route path='/retreat' element={<Retreat />} />
                     <Route path='/blog' element={<Blog />} />
+                    <Route path='/contact' element={<Contact />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>
