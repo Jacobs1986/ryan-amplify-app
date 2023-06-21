@@ -26,7 +26,7 @@ export default function HomePageLinks() {
                             <Image
                                 className="linkIcons"
                                 alt='YouTube icon'
-                                src={require('./youtube-logo.png')}
+                                src='./youtube-logo.png'
                             />
                         </a>
                     </Col>
