@@ -9,7 +9,7 @@ import {
 } from 'react-bootstrap';
 
 // Components
-import ContactForm from "../contactForm/contactForm";
+// import ContactForm from "../contactForm/contactForm";
 
 export default function ContactContent() {
     return (
@@ -22,7 +22,7 @@ export default function ContactContent() {
                 </p>
             </div>
             <div>
-                <ContactForm />
+                {/* <ContactForm /> */}
             </div>
             <div>
                 <p className='contactFormParagraph'>
