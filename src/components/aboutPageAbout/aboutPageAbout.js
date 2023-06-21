@@ -20,11 +20,11 @@ export default function AboutMe() {
             <Container fluid>
                 <Row>
                     <Col xs={12} md={12} lg={6} className="colNoPadding">
-                        {/* <Image 
+                        <Image 
                             fluid
                             src={require('./my-story.jpg')}
                             alt='Picture of Ryan'
-                        /> */}
+                        />
                     </Col>
                     <Col xs={12} md={12} lg={6}>
                         <Biography />
