@@ -1,0 +1,15 @@
+#retreatCol-picture {
+    padding: 0 57px;
+}
+
+@media screen and (min-width: 768px) {
+    #retreatCol-picture {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #retreatCol-p {
+        font-size: 20px;
+    }
+}
