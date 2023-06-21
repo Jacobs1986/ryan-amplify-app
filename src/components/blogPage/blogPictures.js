@@ -23,7 +23,7 @@ export default function BlogPictures() {
                 blog[postId].photos.length !== 0 ?
                     blog[postId].photos.map((image, i) => {
                         return (
-                            <a href={image} target="_blank" rel="noreferrer">
+                            <a href={require(`${image}`)} target="_blank" rel="noreferrer">
                                 <Image
                                     key={i}
                                     src={require(`${image}`)}
