@@ -15,11 +15,11 @@ export default function Audio() {
                 </h1>
                 <Row>
                     <Col xs={12} md={6} style={{ padding: '0px' }}>
-                        {/* <Image
+                        <Image
                             fluid
                             src='./Images/meditation.jpg'
                             alt='Meditation position'
-                        /> */}
+                        />
                     </Col>
                     <Col xs={12} md={6}>
                         <p id="audioPara"> 
