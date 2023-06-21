@@ -11,7 +11,7 @@ export default function BlogBanner() {
         <div>
             <Image 
                 fluid
-                src='./Images/blog-banner-side.jpg'
+                src={require('./blog-banner-side.jpg')}
                 alt='Blog banner'
             />
         </div>
