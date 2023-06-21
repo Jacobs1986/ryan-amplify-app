@@ -5,7 +5,7 @@ import HomePageBanner from "../components/homePageBanner/homePageBanner";
 import HomePageCaption from "../components/homePageCaption/homePageCaption";
 import HomePageCards from '../components/homePageCards/homePageCards';
 import HomePageColumn from "../components/homePageColumn/homePageColumn";
-// import HomePageLinks from "../components/homePageLinks/homePageLinks";
+import HomePageLinks from "../components/homePageLinks/homePageLinks";
 
 export default function Home() {
     return (
@@ -14,7 +14,7 @@ export default function Home() {
             <HomePageCaption />
             <HomePageCards />
             <HomePageColumn />
-            {/* <HomePageLinks /> */}
+            <HomePageLinks />
         </div>
     );
 };

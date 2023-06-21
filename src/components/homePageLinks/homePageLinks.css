@@ -1,0 +1,12 @@
+#linkText {
+    font-size: 21px;
+}
+
+#linkDiv {
+    margin: 1em 0;
+}
+
+.linkIcons {
+    width: 3em;
+    margin-right: 5px;
+}
