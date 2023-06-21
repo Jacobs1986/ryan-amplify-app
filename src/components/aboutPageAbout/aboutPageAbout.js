@@ -22,7 +22,7 @@ export default function AboutMe() {
                     <Col xs={12} md={12} lg={6} className="colNoPadding">
                         <Image 
                             fluid
-                            src={require('./my-story.jpg')}
+                            src={require('./my-story-2.jpg')}
                             alt='Picture of Ryan'
                         />
                     </Col>
