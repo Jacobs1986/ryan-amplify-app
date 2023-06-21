@@ -19,7 +19,7 @@ export default function HomePageLinks() {
                             <Image
                                 className="linkIcons"
                                 alt='Instagram icon'
-                                src={require('./icon-instagram.png')}
+                                src='./icon-instagram.png'
                             />
                         </a>
                         <a href="https://www.youtube.com/channel/UCZ54zvvOto4mixp-zUy5x1A" target="_blank" rel="noreferrer">
