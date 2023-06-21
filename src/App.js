@@ -15,6 +15,7 @@ import Footer from "./components/footer/footer";
 // Pages
 import Home from "./pages/home-page";
 import About from "./pages/about-page";
+import Media from "./pages/media-page";
 
 function App() {
     return (
@@ -24,6 +25,7 @@ function App() {
                 <Routes>
                     <Route path='/' element={<Home />} />
                     <Route path='/about' element={<About />} />
+                    <Route path='/media' element={<Media />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>
