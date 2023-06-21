@@ -1,0 +1,13 @@
+#audioTitle {
+    font-size: 2rem;
+}
+
+#audioPara {
+    font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    #audioTitle {
+        font-size: 2.5rem;
+    }
+}
