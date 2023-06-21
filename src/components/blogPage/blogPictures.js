@@ -26,7 +26,7 @@ export default function BlogPictures() {
                             <a href={image} target="_blank" rel="noreferrer">
                                 <Image
                                     key={i}
-                                    src={image}
+                                    src={require(`${image}`)}
                                     className="blogPostPicture"
                                     alt='Blog image'
                                 />
