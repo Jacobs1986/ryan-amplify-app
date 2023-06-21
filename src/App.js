@@ -10,6 +10,7 @@ import './App.css';
 
 // Components
 import Navigation from "./components/navbar/navbar";
+import Footer from "./components/footer/footer";
 
 // Pages
 import Home from "./pages/home-page";
@@ -22,6 +23,7 @@ function App() {
                 <Routes>
                     <Route path='/' element={<Home />} />
                 </Routes>
+                <Footer />
             </BrowserRouter>
         </div>
     )
